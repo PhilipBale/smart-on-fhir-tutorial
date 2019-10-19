@@ -52,6 +52,9 @@
           p.height = getQuantityValueAndUnit(height[0]);
           p.weight = getQuantityValueAndUnit(weight[0]);
 
+          console.log('patient', p);
+          console.log('weight bycode', byCodes('29463-7'));
+
 
           if (typeof systolicbp != 'undefined') {
             p.systolicbp = systolicbp;
